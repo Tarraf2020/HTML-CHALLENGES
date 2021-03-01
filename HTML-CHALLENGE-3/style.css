@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(163, 231, 209);
+}
+.header{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    background-image: url(/HTML-CHALLENGE-3/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    padding: 10px;
+}
+main.main{
+    display: flex;
+}
+
+section.left{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+section.right{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+section.right-down{
+    display: flex;
+}
+
+
+/*-----------------------------------------------*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+ul.nav{
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    background-color: wheat;
+    flex-direction: row;
+}
+li.subnav {
+    width: 100%;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+li.subnav:hover{
+    background-color: coral;
+}
+button{
+    background-color: rgb(91, 187, 187);
+    padding: 12px 20px;
+}
+button:hover{
+    background-color: rgb(33, 131, 131);
+    
+}
